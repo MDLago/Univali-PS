@@ -65,6 +65,7 @@ public abstract class SQL {
         return sql.toString();
     }
 
+
     //endregion
 
     //region DELETES

@@ -64,8 +64,7 @@ public class DB extends SQLiteOpenHelper {
         Cursor cursor = db.rawQuery(sql,null);
         return cursor;
     }
-    private String md5(String s) throws Exception{
-
+    public String md5(String s) throws Exception{
 
         final String MD5 = "MD5";
         // Create MD5 Hash

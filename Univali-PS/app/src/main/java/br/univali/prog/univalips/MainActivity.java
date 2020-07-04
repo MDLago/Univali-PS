@@ -197,6 +197,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirTelaMenuPrincipal(){
-        notificacao("teste");
+        notificacao("funcionou");
     }
 }
